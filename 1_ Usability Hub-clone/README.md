@@ -4,4 +4,4 @@
 - This clone website is built using only ```HTML5``` and ```CSS3```.
 - URL of original website is - https://usabilityhub.com/
 
-![image](https://github.com/alok-96/UsabilityHub-Clone/assets/90456532/d9f504e3-371d-437e-94fb-af91e55720a1)
+![image](https://github.com/santosh-babu/santosh-babu/blob/a0ac28fa3546f507d86785aece3f39ce816d7015/UsabilityHub_clone.png)
