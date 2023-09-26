@@ -5,4 +5,4 @@
 
 <!-- ![image](https://github.com/santosh-babu/some-web.dev.-template/blob/main/2_myTunes/img/myTunes.png) -->
 
-<img src="https://github.com/santosh-babu/some-web.dev.-template/blob/main/2_myTunes/img/myTunes.png" alt="myTunes">
+<img src="img/myTunes.png" alt="myTunes">
