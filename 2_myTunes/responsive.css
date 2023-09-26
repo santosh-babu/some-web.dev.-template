@@ -1,0 +1,75 @@
+@media screen and (max-width: 991px) { 
+    .hero{
+        margin-bottom: 40vw;
+    }
+    .hero-img img{
+        width: 90vw;
+        left: 6vw;
+    }
+    .giftcard-img img{
+        width: 40vw;
+    }
+    .giftcard-info p{
+        margin-block: 15px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        left: 50%;
+        top: -26vh;
+        transform: translate(-50% , -50%);
+        padding-block: 10vh;
+        background-color: var(--primary-color);
+        width: 100%;
+        z-index: -50;
+        transition: all ease-in-out 0.5s;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .main_cont h2{
+        font-size: 4rem;
+    }
+    .main_cont h4{
+        font-size: 1.7rem;
+    }
+    .hero-img img{
+        top: 35px;
+    }
+    .poster{
+        height: 80vh;
+    }
+    .giftcard{
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    .giftcard-info{
+        width: 100%;
+    }
+    .giftcard-img img{
+        padding-top: 5vh;
+        width: 100%;
+    }
+    .giftcard-info p{
+        text-align: start;
+    }
+    footer{
+        height: fit-content;
+        padding-block: 7vh;
+    }
+    .footer-cont{
+        flex-wrap: wrap;
+    }
+    .footer-detail{
+        width: 48%;
+    }
+    .footer-cont h3{
+        margin-block: 18px;
+    }
+}

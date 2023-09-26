@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #270082;
+    --secondary-color: #1b0058;
+    --primary-text-color: white;
+    --secondary-text-color: #f9f6ff;
+    /* --primary-font-family: ;
+    --secondary-font-family: ; */
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.container {
+    max-width: 90vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header section */
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    box-shadow: inset 0px 0px 12px red;
+    position: relative;
+}
+
+nav {
+    z-index: 50;
+    justify-content: space-between;
+    padding-block: 25px;
+}
+
+.menu {
+    gap: 20px;
+}
+
+.menu li a {
+    color: var(--primary-text-color);
+    font-weight: 300;
+}
+
+.menu li a:hover {
+    /* transition: 0.2 ease-in; */
+    border-bottom: 2.5px solid red;
+}
+.menu-icon{
+    display: none;
+}
+.menu.active{
+    z-index: 1;
+    top: 60vw;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* MAIN SECTION */
+.main {
+    background-image: url(img/hero_image.png);
+    height: 100vh;
+    color: var(--secondary-text-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_cont {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.main_cont h2 {
+    font-size: 6.3rem;
+    font-weight: 700;
+}
+
+.main_cont h4 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+/* Hero Section */
+
+.hero {
+    padding-block: 40px;
+    position: relative;
+    background-color: var(--secondary-color);
+    height: 560px;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 62vh;
+
+}
+
+.hero-cont {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-cont h3 {
+    font-size: 1.6rem;
+}
+
+.hero-cont h4 {
+    font-weight: 500;
+    width: 85%;
+}
+
+.hero-cont button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.hero-cont p {
+    font-weight: 300;
+}
+
+.hero-img {
+    width: 90vw;
+    height: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.hero-img img {
+    position: absolute;
+    left: 12.5vw;
+    top: 15px;
+}
+
+/* Detaile Section  */
+
+.detail {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-block: 5vw;
+}
+
+.detail p {
+    opacity: 0.9;
+}
+
+.primary-btn {
+    padding: 15px 25px;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+}
+.dtl-img img{
+    max-width: 90vw;
+}
+/* Poster Section */
+
+.poster {
+    margin-block: 4vw;
+    height: 120vh;
+    width: 100%;
+    background-color: #270082;
+    background-image: url(img/video.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--primary-text-color);
+}
+
+.poster-info {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.poster-info p {
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+/* Gift-Card Section */
+.giftcard {
+    gap: 50px;
+    margin-block: 4vw;
+}
+
+.giftcard-info {
+    padding-block: 20px;
+}
+
+.giftcard-info p {
+    font-weight: 300;
+    margin-block: 25px;
+}
+
+.giftcard-info hr {
+    margin-bottom: 25px;
+}
+.giftcard-img img{
+    width: 40vw;
+}
+
+/* Footer Section  */
+footer {
+    background-color: var(--secondary-color);
+    height: 35vh;
+}
+
+.footer-cont {
+    justify-content: space-between;
+    height: 100%;
+    color: var(--primary-text-color);
+
+}
+
+.footer-cont h3 {
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+}
+
+.footer-cont h4 {
+    margin-block: 5px;
+    font-weight: 300;
+}
+
+/*  SubFooter Section */
+.sub-footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--primary-text-color);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
